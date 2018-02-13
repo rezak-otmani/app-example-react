@@ -6,11 +6,12 @@
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-scripts": "1.1.0"
-  },
-  "scripts": {
-    "start": "node scripts / start.js",
-    "build": "node scripts / build.js",
-    "test": "node scripts / test.js --env=jsdom"
+}, 
+ "scripts": {
+    "start": "node  scripts / start.js",
+    "build": "node  scripts / build.js",
+    "release": "node scripts/release.js",
+    "test": "jest"
   
   },
   "devDependencies": {
