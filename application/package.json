@@ -6,7 +6,8 @@
   "dependencies": {
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
-    "react-scripts": "1.1.0"
+    "react-scripts": "1.1.0",
+    "semantic-ui-css": "^2.2.14"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -18,5 +19,4 @@
     "webpack": "^3.11.0",
     "webpack-dev-server": "^2.11.1"
   }
-  
 }
