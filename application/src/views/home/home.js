@@ -1,16 +1,29 @@
 import React from 'react';
-
+import image1 from '../../img/image_link1.png';
 export const Home = () => (
-   <div class="ui vertical stripe segment">
+  
+<div class="pusher">
+  <div class="ui inverted vertical masthead center aligned segment">
+
+    <div class="ui container">
+
+ 
 
   <div class="ui text container">
-        <h1>EMPOWERING</h1>
-       <h1> GROWTH WITH</h1>
-      <h1>REAL DATA</h1>
-   </div>
-
+     
+       <h1 class="ui huge inverted header">EMPOWERING</h1>
+       <h1 class="ui huge inverted header"> GROWTH WITH</h1>
+     <h1 class="ui huge inverted header">REAL DATA</h1>
+          <div><img src={image1} />
+         </div>
   
-  </div>
+ </div>
+ 
+
+</div>
+</div>
+</div>
+
 );
 
 export default Home;

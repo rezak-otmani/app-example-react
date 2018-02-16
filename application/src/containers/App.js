@@ -17,13 +17,13 @@ render () {
        </header>
 
 
-
-        <Home />   
-       <About /> 
+       <Home />
+      <Product/>   
+      <About /> 
+      <Featured />
        <Contact /> 
        <Demo /> 
-       <Featured /> 
-       <Product/> 
+       
 
 {this.props.children}
 
