@@ -7,29 +7,50 @@ import Demo from '../views/demo/demo';
 import Featured from '../views/featured/featured';
 import Product from '../views/product/product';
 
+
  class App extends Component {
 
 render () {
  return (
-      <div className="App">
-       <header>
-         
-       </header>
+ <div className="App">   
+  <div class="pusher">
+  <div class="ui vertical masthead center aligned segment">
+
+  <div class="row">
+     <Home />
+    
+  </div>
+  <div class="row">
+     <Product/>
+  </div>
+  <div class="row">
+     <About />
+  </div>
+
+ <div class="row">
+     <Featured />
+
+  </div>
+  <div class="row">
+      <Contact />
+
+</div>
+  
+ <div class="row">
+     <Demo />
+
+  </div>
 
 
-       <Home />
-      <Product/>   
-      <About /> 
-      <Featured />
-       <Contact /> 
-       <Demo /> 
-       
+</div>
 
+</div>
 {this.props.children}
 
+</div>
 
-
-      </div>
+ 
+     
     );
   }
 }

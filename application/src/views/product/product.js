@@ -69,7 +69,7 @@ export const Product = () => (
      
                   <div class="">
                   
-                    <img src={ecran}/>
+                    <img src={ecran} alt="" />
                   </div>
                </div>
 

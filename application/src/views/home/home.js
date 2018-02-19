@@ -14,7 +14,7 @@ export const Home = () => (
        <h1 class="ui huge inverted header">EMPOWERING</h1>
        <h1 class="ui huge inverted header"> GROWTH WITH</h1>
      <h1 class="ui huge inverted header">REAL DATA</h1>
-          <div><img src={image1} />
+          <div><img src={image1} alt=""/>
          </div>
   
  </div>
