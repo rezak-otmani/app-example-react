@@ -10,47 +10,42 @@ export const Featured = () => (
   <div class="pusher">
  
   <div class="ui vertical masthead center aligned segment">
-
-   <div class="ui container">
+<div class="ui container">
+   
                <div class="row">
-               <div class="center aligned column">
                <div class="ui sizer vertical segment">
                <div class="ui huge header">USING DATO</div>
                </div>
                </div>
-               </div>
-              
+             
 
-               <div class="row">
-    <div class="column">
+     <div class="row">
+    
       <div class="ui three column grid">
         
-        <div class="column">
-          <img src={sat} />
+       <div class="column">
+          <img src={sat} alt="" />
         </div>
         <div class="column">
-          <img src={up} />
+          <img src={up} alt="" />
         </div>
         <div class="column">
-          <img src={tech2023} />
+          <img src={tech2023} alt="" />
         </div>
         <div class="column">
-          <img src={le} />
+          <img src={le} alt="" />
         </div>
         <div class="column">
-          <img src={infodata} />
+          <img src={infodata} alt="" />
         </div>
         <div class="column">
-          <img src={info} />
-
+          <img src={info} alt="" />
         </div>
-      </div>
+      
     </div>
   </div>
 
-          
-
-</div>
+</div>          
 </div>
 </div>
 );
