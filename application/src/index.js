@@ -7,20 +7,24 @@ import 'semantic-ui-css/semantic.min.css';
 
 import { Provider } from 'react-redux';
 import { createStore, combineReducers } from 'redux';
-import { reducer as formReducer } from 'redux-form';
+import { reducer as reduxFormReducer } from 'redux-form';
 
-const rootReducer = combineReducers({
-  form: formReducer,
-});
 
-const store = createStore(rootReducer);
+const reducer = combineReducers({
+  form: reduxFormReducer // mounted under "form"
+})
+const store = (window.devToolsExtension
+  ? window.devToolsExtension()(createStore)
+  : createStore)(reducer)
+
 
 ReactDOM.render(
-  <Provider store={store}>
-    <App />
-  </Provider>,
-  document.getElementById('root')
-);
 
+<Provider store={store}>
+
+<App />
+
+  </Provider>,
+ document.getElementById('root'));
 
 registerServiceWorker();

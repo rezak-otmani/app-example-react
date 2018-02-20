@@ -34,12 +34,7 @@ export const phoneNumber = value =>
     ? 'Invalid phone number, must be 10 digits'
     : undefined
 
-const renderField = ({
-  input,
-  label,
-  type,
-  meta: { touched, error, warning }
-}) => (
+const renderField = ({ input, label, type, meta: { touched, error, warning }}) => (
   <div>
     <label>{label}</label>
     <div>
@@ -51,9 +46,10 @@ const renderField = ({
   </div>
 )
 
+
+
  
- 
-    const FormDemo = props => {
+ const Form = props => {
   const { handleSubmit, pristine, reset, submitting } = props
   return (
             <form className='ui form' onSubmit={handleSubmit}>   
@@ -105,16 +101,13 @@ const renderField = ({
               />
             </div>
 
-              <button type="submit" disabled={submitting} class="ui positive button"
-               
-              >
-                SEND
+              <button type="submit" class="ui positive button" disabled={submitting}  >                                 SEND
               </button>
-           </div>
-           </form>
+             </div>
+          </form>
           )
 }
 
 export default reduxForm({
   form: 'FormDemo' // a unique identifier for this form
-})(FormDemo)
+})(Form)
