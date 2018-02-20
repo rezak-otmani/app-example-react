@@ -6,25 +6,24 @@ import registerServiceWorker from './registerServiceWorker';
 import 'semantic-ui-css/semantic.min.css';
 
 import { Provider } from 'react-redux';
-import { createStore, combineReducers } from 'redux';
-import { reducer as reduxFormReducer } from 'redux-form';
+import { createStore, combineReducers } from 'redux'
+import { reducer as formReducer } from 'redux-form';
+import { BrowserRouter } from 'react-router-dom'
 
 
-const reducer = combineReducers({
-  form: reduxFormReducer // mounted under "form"
-})
-const store = (window.devToolsExtension
-  ? window.devToolsExtension()(createStore)
-  : createStore)(reducer)
+const rootReducer = combineReducers({
+  form: formReducer,
+});
 
+const store = createStore(rootReducer);
 
 ReactDOM.render(
-
-<Provider store={store}>
-
-<App />
-
+ <Provider store={store}>
+     <BrowserRouter>
+    <App />
+    </BrowserRouter>
   </Provider>,
- document.getElementById('root'));
+  document.getElementById('root')
+);
 
 registerServiceWorker();
