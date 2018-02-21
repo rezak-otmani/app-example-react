@@ -22,7 +22,50 @@
   font-size: large;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
-}
+ .masthead.segment {
+     
+        min-height: 700px;
+     padding: 1em 0em;
+   }
+
+    .masthead h1.ui.header {
+      margin-top: 0em;
+      margin-bottom: 0.4em;
+      font-size: 6em;
+      font-weight: normal;
+    }
+
+      .masthead h2.ui.header {
+      margin-top: 1em;
+      margin-bottom: 0em;
+      font-size: 1.5em;
+      font-weight: normal;
+    }
+
+
+
+        .masthead .ui.image {
+      margin-top: 8em;
+      margin-bottom: 0em;
+    }
+
+         .masthead div.ui.divider {
+            width: 15em;
+  height: 0.5em;
+  line-height: 10em;
+  text-align: center;
+    }
+
+ .masthead .ui.embed {
+  
+    height: 20em;
+       margin-top: 8em;
+  
+
+    }
+
+
+
+
+
+      

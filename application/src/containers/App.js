@@ -7,21 +7,8 @@ import Demo from '../views/demo/demo';
 import Featured from '../views/featured/featured';
 import Product from '../views/product/product';
 import NavBar from '../components/NavBar';
-import {Route, Link, Switch} from 'react-router-dom';
+import Logo from '../img/stalwart.jpeg';
 
-     const main = () => (
-
-    <main>
-      <Switch>
-      <Route exact path='/' component={Home}/>
-      <Route path='/product' component={App}/>
-      <Route path='/About' component={About}/>
-      <Route path='/Featured' component={Featured}/>
-      <Route path='/contact' component={App}/>
-      <Route path='/Demo' component={Demo}/>
-      </Switch>
-    </main>
-            )
 
 
  class App extends Component {
@@ -31,40 +18,49 @@ render () {
  <div className="App">   
   <div class="pusher">
   <div class="ui vertical masthead center aligned segment">
-  
-       <div>
-       <NavBar />
-       </div>
-               
+        <div class="ui inverted vertical stripe segment"> 
+                <div class="ui two center aligned column stackable grid"> 
+                   <div class="two wide column">
+              <div class="ui inverted segment"> <img src={Logo} alt="" /></div>
+                   </div>
+                    <div class="six wide column">
+                    <div class="ui inverted segment"><NavBar />
+                    </div>
+                    </div>
+                </div>
 
-  <div class="row">
-     <Home />
-    
-  </div>
-  <div class="row">
-     <Product/>
-  </div>
-  <div class="row">
-   <Link to="/product">
-  <About />
-   </Link>
-  </div>
-
-
- <div class="row">
-     <Featured />
-
-  </div>
-  <div class="row">
-   <Link to="/contact">     
- <Contact />
-    </Link>
-</div>
  
- <div class="row">
-     <Demo />
 
+         </div>
+            
+
+
+
+
+  <div id="home" class="row">
+         <Home />
   </div>
+
+  <div id="product"class="row">
+         <Product/>
+  </div>
+
+  <div id="about" class="row">
+          <About />
+  </div>
+
+
+   <div id="featured" class="row">
+           <Featured />
+   </div>
+ 
+   <div id="contact" class="row">
+            <Contact />
+   </div>
+
+    <div id="demo" class="row">
+             <Demo />
+     </div>
 
 
 </div>

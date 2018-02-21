@@ -1,35 +1,32 @@
-import React from 'react';
+import React, {Component} from 'react';
 import story from '../../img/story.png';
 import vision from '../../img/vision.png';
 import technology from '../../img/technology.png';
 
-export const About = () => (
 
+class About extends Component {
+
+render () {
+ return (
 
 <div class="pusher">
  
-  <div class="ui vertical olive inverted center aligned segment">
-<div class="ui container">
+  <div class="ui vertical olive inverted masthead center aligned segment">
 
    
-
-         <div class="row">
-               <div class="center aligned column">
-               <div class="ui sizer vertical segment">
-               <div class="ui huge header">MEET DATO</div>
+              <div class="center aligned column">
+                    <div class="ui sizer vertical segment">
+                           <h1 class="ui huge header">MEET DATO</h1>
+                      </div>
                </div>
-               </div>
-         </div>
+         
 
-
-     <div class="row">
-      <div class="ui three columns grid">
-               
+      <div class="ui seven columns center aligned stackable grid">             
          <div class="column">
 
            <h2 class="ui icon header">
            <img src={story} alt="" />
-               <div class="ui dividing header"></div>
+               <div class="ui divider"></div>
                <div class="content">
                OUR STORY
                 <div class="sub header">I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the                              font. Feel free to drag and drop me a ywhere you like on your page.
@@ -42,7 +39,7 @@ export const About = () => (
           <div class="column">
           <h2 class="ui icon header">
                <img src={vision} alt="" />
-               <div class="ui dividing header"></div>
+               <div class="ui divider"></div>
                <div class="content">
                      OUR VISION
                      <div class="sub header">I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edt Text” or double click me to add your own content and make changes to                                   the font. Feel free to drag and drop me an ywhere you like on your page.                  
@@ -55,7 +52,7 @@ export const About = () => (
           <div class="column">
            <h2 class="ui icon header">
                  <img src={technology} alt="" />
-                <div class="ui dividing header"></div>
+                <div class="ui divider"></div>
                 <div class="content">
                        OUR TECHNOLOGY
                        <div class="sub header">I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double clic me to add your own content and make changes to                                   the font. Feel free to drag and drop me anywhere you like on your page.  
@@ -65,16 +62,11 @@ export const About = () => (
           </div>
 
     </div>
-   </div>
-</div>  
-   
-       
-
-
+  
 
 </div>
 </div>
 
 );
-
+}}
 export default About;

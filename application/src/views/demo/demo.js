@@ -1,29 +1,32 @@
-import React from 'react';
-import Form from '../../components/Form';
+import React, {Component} from 'react';
+import Form from '../../components/Form'
+import Logo from '../../img/stalwart.jpeg';
 
 
-export const Demo = () => (
+class Demo extends Component {
+
+render () {
+ return (
   
  <div class="pusher">
   <div class="ui vertical masthead center aligned segment">
-  <div class="ui container">        
-         <div class="row"> 
+         
+      
           <h1 class="ui  header">
               
               <div class="content">
-                    REQUEST DEMO 
+                    REQUEST DEMO
                      <div class="sub header">
                       
-                     Please fill your contact details below:   
+                    <h2> Please fill your contact details below:</h2>   
                     </div> 
                     </div>
            </h1>
-          </div>
-
-       <div class="row">
+ 
+        <div class="row">
         <div class="ui container">
         <Form />
-        </div>
+       </div>
         </div>
            
 
@@ -32,14 +35,14 @@ export const Demo = () => (
 
   
   
-		                          <div class="row">
-                                          <div class="ui divided equal height grid">
-                               
-
-
-                                                      <div class="four wide column">
+		                         
+                                    <div class="ui eight columns center aligned stackable grid">
+                                                                                                                                                             <div class="two wide column">    
+                                                               <img src={Logo} alt="" />
+                                                        </div>  
+                                                      <div class="two wide column">
                                                              <h2 class="ui header">
-                                                              <div class="ui dividing header"></div>
+                                                              <div class="ui divider"></div>
                                                               <div class="content">
                                                              LINKS
                                                              <div class="sub header">
@@ -58,9 +61,9 @@ export const Demo = () => (
                                                       </div>
 
 
-                                                      <div class="four wide column">
+                                                      <div class="two wide column">
                                                              <h2 class="ui header">
-                                                              <div class="ui dividing header"></div>
+                                                              <div class="ui divider"></div>
                                                               <div class="content">
                                                              ABOUT
                                                              <div class="sub header">
@@ -77,9 +80,9 @@ export const Demo = () => (
                                                              </h2>
                                                        </div>
                                                                
-                                                        <div class="four wide column">
+                                                        <div class="two wide column">
                                                              <h2 class="ui header">
-                                                              <div class="ui dividing header"></div>
+                                                              <div class="ui divider"></div>
                                                               <div class="content">
                                                              SOCIAL
                                                              <div class="sub header">
@@ -103,22 +106,12 @@ export const Demo = () => (
                                                      
 
                                           </div>
-                                          </div>
-                                            
 
 
-
-  
-       
 </div>
 </div>
-</div>
-
-
-
-
 
 );
-
+}}
 export default Demo
 ;
