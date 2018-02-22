@@ -69,13 +69,13 @@ render () {
                  
                       <div class="ui reveal">
                             <div class="visible content">
-                                   <img src={graph} class="ui Massive image" />
+                                   <img src={graph} class="ui Big image" />
                             </div>
                             <div class="hidden content">
                                    <img src={ecran} class="move left" />
                             </div>
                       </div>
-                    
+                   
            
                </div>
 

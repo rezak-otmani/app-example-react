@@ -19,7 +19,7 @@ render () {
                               <div class="ui seven columns center aligned stackable divided equal height stackable grid">                  
                                           <div class="three wide column">
                                                <div class="ui link list">
-                                                    <a href="" class="item">info@mysite.com </a>
+                                                   <a href="" class="item">info@mysite.com </a>
                                                     <a href="" class="item">info@mysite.com</a>
                                                 </div>
                                           </div>
@@ -27,7 +27,7 @@ render () {
                                           <div class="three wide column">
                                                   <div class="ui link list">
                                                       <a href="" class="item">Tel: 123-456-7890</a>
-                                                      <a href="" class="item">Fax: 123-456-7890</a>
+                                                     <a href="" class="item">Fax: 123-456-7890</a>
                                                    </div>
                                            </div> 
 
