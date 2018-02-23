@@ -50,22 +50,39 @@
 
 
 
-.dato {
-    color : red;
-      margin-top: 5em;
-      margin-left: 0em;
-       margin-bottom: 5em;
-      position : relative;
+.stylesvgtop text {
+  font-size: 5em;
+  font-family: sans-serif;
+  	text-anchor: middle;
+ stroke-width:0.05em;
+  
 }
 
-.style-logo {
-     top: 0em;
-     left: 0em;
-      width: 15em;
-     height: 15em;
+.stylesvgbottom text {
+  font-size: 5em;
+  font-family: sans-serif;
+        text-anchor: middle;
+ stroke-width:0.05em;
+
 }
 
-.stylesvg
+
+
+.headertop
+ {
+
+    padding-top: 5em;
+    padding-bottom: 0;
+}
+
+
+.logo
+ {
+
+    width: 15em;
+    height: 15em;
+}
+.stylesvgtop
  {
 width:100%;
 height:100%;
@@ -77,10 +94,25 @@ margin:auto;
 fill:#3D9BE9;
 fill-opacity:0;
 stroke:rgba(231, 255, 110, 1);
-stroke-width:1em;}
- 
-.stylesvg{vector-effect:non-scaling-stroke; }
-.alogo {display:block;height:100%;}
+stroke-width:0.6em;
+vector-effect:non-scaling-stroke; 
+}
+
+.stylesvgbottom
+ {
+width:100%;
+height:100%;
+top:3em;
+right:0;
+bottom:0;
+left:0;
+margin:auto;
+fill:#3D9BE9;
+fill-opacity:0;
+stroke:rgba(1, 1, 1, 1);
+stroke-width:0.6em;
+vector-effect:non-scaling-stroke;
+}
 
 
 .reveal div.visible{ 

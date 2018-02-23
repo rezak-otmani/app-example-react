@@ -33,12 +33,23 @@ render () {
 
 
 
-  
+                                <div class="ui vertical olive inverted center aligned segment">
   
 		                         
                                     <div class="ui eight columns center aligned stackable grid">
-                                                                                                                                                             <div class="two wide column">    
-                                                               <img src={Logo} alt="" />
+                                                                                                                                                             <div class="two wide column">       
+
+                      <a href="" target="_self" tabindex="-1">
+                           <svg class = "logo" xmlns="http://www.w3.org/2000/svg" viewBox="-7.7116809713429575 -16.75102391736263 313.60835950127966 385.58404856714714" role="img" preserveAspectRatio="xMidYMid meet">
+                             <g class ="stylesvgbottom">
+                                  <path d="M298.185 264.061l-149.093 88.021L0 264.061V88.021L149.092 0l149.093 88.021v176.04z"></path>
+                                      <text x="150" y="190" ><tspan>DATO</tspan></text>
+                             </g>
+                           </svg>
+                      </a>
+
+
+                                                                 
                                                         </div>  
                                                       <div class="two wide column">
                                                              <h2 class="ui header">
@@ -106,8 +117,10 @@ render () {
                                                      
 
                                           </div>
-
-
+                         </div>
+                         <div class="ui vertical wide left aligned segment">
+                        © 2018 by Rezak. App created with ReactJS
+                         </div>
 </div>
 </div>
 
