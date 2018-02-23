@@ -16,9 +16,10 @@ render () {
   <div class="pusher">
  
   <div class="ui vertical masthead center aligned segment"> 
-             
+                <div class="center aligned column">            
                 <div class="ui sizer vertical segment">
                <h1 class="ui huge header">USING DATO</h1>
+               </div>
                </div>
               
             

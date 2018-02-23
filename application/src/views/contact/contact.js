@@ -30,10 +30,12 @@ render () {
                                                      <a href="" class="item">Fax: 123-456-7890</a>
                                                    </div>
                                            </div> 
-
+                                                                             
                                             <div class="three wide column">
-                                                    <p>500 Terry Francois Street</p>
-                                                    <p>San Francisco, CA 94158</p>
+                                                   <div class="ui link list">
+                                                    <p class="item">500 Terry Francois Street</p>
+                                                    <p class="item">San Francisco, CA 94158</p>
+                                                   </div>
                                             </div>
                                    </div>
 

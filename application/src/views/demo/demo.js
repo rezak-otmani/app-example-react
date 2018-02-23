@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
-import Form from '../../components/Form'
-import Logo from '../../img/stalwart.jpeg';
+import Form from '../../components/Form';
 
 
 class Demo extends Component {
@@ -28,17 +27,14 @@ render () {
         <Form />
        </div>
         </div>
-           
+          <br/>
 
 
 
-
-                                <div class="ui vertical olive inverted center aligned segment">
-  
+                                <div class="ui vertical olive inverted footer segment">
 		                         
-                                    <div class="ui eight columns center aligned stackable grid">
-                                                                                                                                                             <div class="two wide column">       
-
+                                    <div class="ui seven columns center aligned stackable grid">
+                                                                                                                           <div class="three wide column">       
                       <a href="" target="_self" tabindex="-1">
                            <svg class = "logo" xmlns="http://www.w3.org/2000/svg" viewBox="-7.7116809713429575 -16.75102391736263 313.60835950127966 385.58404856714714" role="img" preserveAspectRatio="xMidYMid meet">
                              <g class ="stylesvgbottom">
@@ -49,10 +45,10 @@ render () {
                       </a>
 
 
-                                                                 
-                                                        </div>  
+
+                      </div>  
                                                       <div class="two wide column">
-                                                             <h2 class="ui header">
+                                                             <h2 class="ui left aligned header">
                                                               <div class="ui divider"></div>
                                                               <div class="content">
                                                              LINKS
@@ -65,7 +61,7 @@ render () {
                                                                  <a href="" class="item">Contact</a>
                                                                  <a href="" class="item">Demo</a>
                                                                   
-                                                             </div>
+						             </div>
                                                              </div>
                                                              </div>
                                                              </h2>
@@ -73,7 +69,7 @@ render () {
 
 
                                                       <div class="two wide column">
-                                                             <h2 class="ui header">
+                                                             <h2 class="ui left aligned header">
                                                               <div class="ui divider"></div>
                                                               <div class="content">
                                                              ABOUT
@@ -92,7 +88,7 @@ render () {
                                                        </div>
                                                                
                                                         <div class="two wide column">
-                                                             <h2 class="ui header">
+                                                             <h2 class="ui left aligned header">
                                                               <div class="ui divider"></div>
                                                               <div class="content">
                                                              SOCIAL
@@ -115,7 +111,7 @@ render () {
                                                              </h2>
                                                        </div>
                                                      
-
+                                      
                                           </div>
                          </div>
                          <div class="ui vertical wide left aligned segment">

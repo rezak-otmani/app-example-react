@@ -51,18 +51,18 @@ const renderField = ({ input, label, type, meta: { touched, error, warning }}) =
  const Form = props => {
  const { handleSubmit, pristine, reset, submitting } = props
   return (
-            <form className='ui form' onSubmit={handleSubmit}>   
+            <form class="ui form" onSubmit={handleSubmit}>   
               <div className='content'>
  
-            <div className='field'>
-              <input 
+            <Field
+              
                  type='text'
                  placeholder='Nom'
                   component={renderField}
                   validate={[required, maxLength15, minLength2]}
                   warn={alphaNumeric}
               />
-            </div>
+            
             <div className='field'>
               <input
                 type='text'
@@ -101,10 +101,11 @@ const renderField = ({ input, label, type, meta: { touched, error, warning }}) =
             </div>
 
 
-             <button type="submit" disabled={submitting} class="ui positive button"
-               
-              >
-                SEND
+             <button type="submit" disabled={pristine || submitting}  class="ui positive massive button">SEND
+                 <i class="right paper plane icon">
+             </i>
+              
+                
               </button>
            </div>
            </form>
