@@ -21,9 +21,9 @@ render () {
                                                <div class="ui link list">
                                                    <a href="" class="item">info@mysite.com </a>
                                                     <a href="" class="item">info@mysite.com</a>
-                                                </div>
-                                          </div>
-
+                                               </div>
+                                          </div> 
+                                       
                                           <div class="three wide column">
                                                   <div class="ui link list">
                                                       <a href="" class="item">Tel: 123-456-7890</a>

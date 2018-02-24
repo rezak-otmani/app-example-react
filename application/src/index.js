@@ -7,8 +7,7 @@ import 'semantic-ui-css/semantic.min.css';
 
 import { Provider } from 'react-redux';
 import { createStore, combineReducers } from 'redux'
-import { reducer as formReducer } from 'redux-form';
-import { BrowserRouter } from 'react-router-dom'
+import { reducer as formReducer } from 'redux-form'
 
 
 const rootReducer = combineReducers({
@@ -19,9 +18,9 @@ const store = createStore(rootReducer);
 
 ReactDOM.render(
  <Provider store={store}>
-     <BrowserRouter>
-    <App />
-    </BrowserRouter>
+     
+     <App />
+      
   </Provider>,
   document.getElementById('root')
 );

@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import Form from '../../components/Form';
-
+import Scrollchor from 'react-scrollchor';
 
 class Demo extends Component {
 
@@ -51,15 +51,16 @@ render () {
                                                              <h2 class="ui left aligned header">
                                                               <div class="ui divider"></div>
                                                               <div class="content">
-                                                             LINKS
+                                                            LINKS
                                                              <div class="sub header">
                                                               <div class="ui link list">
-                                                                 <a href="" class="item">Home </a>
-                                                                 <a href="" class="item">Product</a>
-                                                                 <a href="" class="item">About</a>
-                                                                 <a href="" class="item">Featured</a>
-                                                                 <a href="" class="item">Contact</a>
-                                                                 <a href="" class="item">Demo</a>
+                                                              <br />
+                                   <Scrollchor to=""  class="item active">Home </Scrollchor>
+                                     <Scrollchor to="product" class="item">Product</Scrollchor>
+                                      <Scrollchor to="about" class="item">About</Scrollchor>
+                                     <Scrollchor to="featured" class="item">Featured</Scrollchor>
+                                     <Scrollchor to="contact" class="item">Contact</Scrollchor>
+                                      <Scrollchor to="demo" class="item">Demo</Scrollchor>
                                                                   
 						             </div>
                                                              </div>
@@ -75,6 +76,7 @@ render () {
                                                              ABOUT
                                                              <div class="sub header">
                                                               <div class="ui link list">
+                                                                 <br />
                                                                  <a href="" class="item">info@mysite.com </a>
                                                                  <a href="" class="item">info@mysite.com</a>
                                                                  <p class="item">Tel: 123-456-7890</p>
@@ -93,7 +95,7 @@ render () {
                                                               <div class="content">
                                                              SOCIAL
                                                              <div class="sub header">
-                                                              
+                                                             <br /> 
 								    <button class="ui circular facebook icon button">
   									<i class="facebook icon"></i>
 								    </button>

@@ -7,8 +7,6 @@ import Demo from '../views/demo/demo';
 import Featured from '../views/featured/featured';
 import Product from '../views/product/product';
 import NavBar from '../components/NavBar';
-import Logo from '../img/stalwart.jpeg';
-
 
 
  class App extends Component {
@@ -18,8 +16,8 @@ render () {
   <div class="pusher">
   <div class="ui vertical masthead center aligned segment">
         <div class="ui inverted vertical strip segment"> 
-
-              <div class = "headertop">
+             
+          <div class = "headertop">
 
             <div class="ui three columns center aligned stackable grid">     
 
@@ -43,11 +41,6 @@ render () {
   </div>
     </div>
     </div>
-
-       
-            
-
-
 
 
   <div id="home" class="row">
