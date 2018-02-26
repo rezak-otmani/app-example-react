@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import ecran from '../../img/ecran.jpg';
 import graph from '../../img/graphics.png';
+import Scrollchor from 'react-scrollchor';
 
 class Product extends Component {
 
@@ -79,10 +80,11 @@ render () {
            
                </div>
                 <br />
+               <Scrollchor to="demo" className="header item">
                <div class="positive massive ui button">Try a demo
               <i class="right arrow icon">
              </i></div>
-    
+              </Scrollchor>
 
 
 
