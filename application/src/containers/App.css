@@ -105,3 +105,13 @@
    stroke-width:0.05em;
    }
 
+
+   .overlay
+   {
+
+    position: fixed;
+    top: 20em;
+    right: 4em;
+    z-index: 10;
+  }
+  
