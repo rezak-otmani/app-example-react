@@ -79,14 +79,16 @@ render () {
                    
            
                </div>
-                <br />
+               
                <Scrollchor to="demo" className="header item">
                <div class="positive massive ui button">Try a demo
               <i class="right arrow icon">
              </i></div>
               </Scrollchor>
 
-
+            <br />
+            <br />
+            <br />
 
 </div>
 </div>
