@@ -4,6 +4,7 @@ import {Map, Marker, GoogleApiWrapper} from 'google-maps-react';
  
 export class MapContainer extends Component {
 
+
 render() {
 
 
@@ -16,21 +17,16 @@ render() {
             lat: 36.73556051,
             lng: 3.95799242
           }}
-          zoom={15}
+          zoom={17}
           onClick={this.onMapClicked}
           onDragend={this.centerMoved}
-
-
-           >
-
+            >
          <Marker
     title={'DATO'}
     position={{lat: 36.73556051, lng: 3.95799242}}
     name={'DATO'}
        />
-              
-       
-       
+               
       </Map>
     );
   }

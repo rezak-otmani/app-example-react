@@ -40,8 +40,8 @@ render () {
                                    </div>
 
       
-       <div class="ui embed" data-source="google" data-id="" data-placeholder="">
-        <MapContainer />
+<div class="ui billboard test ad" data-text="">
+       <MapContainer />
        
        </div>         
    
