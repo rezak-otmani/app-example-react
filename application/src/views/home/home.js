@@ -4,6 +4,8 @@ import image2 from '../../img/image_link2.png';
 import Scrollchor from 'react-scrollchor';
 import NavBar from '../../components/NavBar';
 
+
+
 class Home extends Component {
   
 
@@ -13,12 +15,6 @@ render () {
 
 <div class="pusher">
   <div class="ui inverted vertical masthead center aligned segment">
-
-
-
-
-
-
 
         <div class="ui inverted vertical strip segment">
 
@@ -46,18 +42,6 @@ render () {
   </div>
     </div>
     </div>
-
-
-
-
-
-
-
-
-
-
-
-
 
   <div class="ui text container">
      

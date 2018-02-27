@@ -55,7 +55,7 @@ render () {
                                                              <div class="sub header">
                                                               <div class="ui link list">
                                                               <br />
-                                   <Scrollchor to=""  class="item active">Home </Scrollchor>
+                                     <Scrollchor to=""  class="item active">Home </Scrollchor>
                                      <Scrollchor to="product" class="item">Product</Scrollchor>
                                       <Scrollchor to="about" class="item">About</Scrollchor>
                                      <Scrollchor to="featured" class="item">Featured</Scrollchor>
