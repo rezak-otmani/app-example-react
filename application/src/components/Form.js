@@ -1,27 +1,27 @@
 import React from 'react'
 import { Field, reduxForm } from 'redux-form'
 
-const required = value => value ? undefined : <span class="ui red header"> ! Required </span>
+const required = value => value ? undefined : <span className="ui red header"> ! Required </span>
 const maxLength = max => value =>
-  value && value.length > max ?  <span class="ui red header">Must be ${max} characters or less </span> : undefined
+  value && value.length > max ?  <span className="ui red header">Must be ${max} characters or less </span> : undefined
 const maxLength30 = maxLength(30)
 const maxLength200 = maxLength(200)
 
-const number = value => value && isNaN(Number(value)) ?  <span class="ui red header">Must be a number </span> : undefined
+const number = value => value && isNaN(Number(value)) ?  <span className="ui red header">Must be a number </span> : undefined
 const minLength = min => value =>
-  value && value.length < min ? <span class="ui red header">Must be at least ${min}</span> : undefined
+  value && value.length < min ? <span className="ui red header">Must be at least ${min}</span> : undefined
 const minLength2 = minLength(2)
 const minLength10 = minLength(10)
 
 const email = value =>
   value && !/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i.test(value) ?
-   <span class="ui red header">Invalid email address</span> : undefined
+   <span className="ui red header">Invalid email address</span> : undefined
 const aol = value =>
   value && /.+@aol\.com/.test(value) ?
-   <span class="ui red header">Really? You still use AOL for your email?</span> : undefined
+   <span className="ui red header">Really? You still use AOL for your email?</span> : undefined
 export const phoneNumber = value =>
   value && !/^(0|[1-9][0-9]{9})$/i.test(value)
-    ?  <span class="ui red header">Invalid phone number, must be 10 digits</span>
+    ?  <span className="ui red header">Invalid phone number, must be 10 digits</span>
     : undefined
 
 
@@ -36,7 +36,7 @@ const renderField = ({ input, label, placeholder,type, meta: { touched, error, w
 const Form = (props) => {
   const { handleSubmit, pristine, reset, submitting } = props
   return (
-    <form class="ui form" onSubmit={handleSubmit}>
+    <form className="ui form" onSubmit={handleSubmit}>
          
           <Field 
                    name="name"
@@ -84,9 +84,9 @@ const Form = (props) => {
            />
         <br />
       <div>
-        <button class="massive ui button" type="button" disabled={pristine || submitting} onClick={reset}>Clear Values</button>
-        <button class="positive massive ui button" type="submit" disabled={submitting}>Send<i class="right arrow icon"></i></button>
-      </div>
+        <button className="massive ui button" type="button" disabled={pristine || submitting} onClick={reset}>Clear Values</button>
+        <button className="positive massive ui button" type="submit" disabled={submitting}>Send<i className="right arrow icon"></i></button> 
+     </div>
     </form>
   )
 }

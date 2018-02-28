@@ -13,12 +13,12 @@ render () {
  return (
 
 
-  <div class="pusher">
+  <div className="pusher">
  
-  <div class="ui vertical masthead center aligned segment"> 
-                <div class="center aligned column">            
-                <div class="ui sizer vertical segment">
-               <h1 class="ui huge header">USING DATO</h1>
+  <div className="ui vertical masthead center aligned segment"> 
+                <div className="center aligned column">            
+                <div className="ui sizer vertical segment">
+               <h1 className="ui huge header">USING DATO</h1>
                </div>
                </div>
               
@@ -26,25 +26,25 @@ render () {
 
 
     
-      <div class="ui seven columns center aligned stackable grid">
+      <div className="ui seven columns center aligned stackable grid">
         
-        <div class="column">
+        <div className="column">
                 <img src={sat} alt="" />
         </div>
-        <div class="column">
+        <div className="column">
                 <img src={up} alt="" />
         </div>
-        <div class="column">
+        <div className="column">
                 <img src={tech2023} alt="" />
         </div>
-        <div class="seven column row">
-        <div class="column">
+        <div className="seven column row">
+        <div className="column">
                  <img src={le} alt="" />
         </div>
-        <div class="column">
+        <div className="column">
                  <img src={infodata} alt="" />
         </div>
-        <div class="column">
+        <div className="column">
                  <img src={info} alt="" />
         </div>
         </div>

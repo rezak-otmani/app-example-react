@@ -8,49 +8,49 @@ class Product extends Component {
 render () {
  return (
 
-       
+      
 
-<div class="pusher">
+<div className="pusher">
  
-  <div class="ui vertical masthead center aligned segment">
+  <div className="ui vertical masthead center aligned segment">
 
        
-          <div class="center aligned column">
-               <div class="ui sizer vertical segment">
-               <h1 class="ui huge header">OUR TECHNOLOGY</h1>
+          <div className="center aligned column">
+               <div className="ui sizer vertical segment">
+               <h1 className="ui huge header">OUR TECHNOLOGY</h1>
                </div>
           </div>
      
 
 
-          <div class="ui seven columns center aligned stackable grid">
+          <div className="ui seven columns center aligned stackable grid">
                 
-                <div class="column">
-                    <h2 class="ui left aligned header">
-                         <div class="content">
-                        <span class="ui olive header"> 01 /</span> FAST
-                                            <div class="sub header">I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your                                                                   content and make changes to the font. Feel free to drag and drop me a ywhere you like on your page.     
+                <div className="column">
+                    <h2 className="ui left aligned header">
+                         <div className="content">
+                        <span className="ui olive header"> 01 /</span> FAST
+                                            <div className="sub header">I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your                                                                   content and make changes to the font. Feel free to drag and drop me a ywhere you like on your page.     
                                             </div> 
                         </div>
                    </h2>
                </div>
                 
-                  <div class="column">
-                    <h2 class="ui left aligned header">
-                           <div class="content">
-                        <span class="ui olive header">  02 /</span> SECURE
-                                              <div class="sub header">I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own                                                                           content and make changes to the font. Feel free to drag and drop me an ywhere you like on your page.                  
+                  <div className="column">
+                    <h2 className="ui left aligned header">
+                           <div className="content">
+                        <span className="ui olive header">  02 /</span> SECURE
+                                              <div className="sub header">I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own                                                                           content and make changes to the font. Feel free to drag and drop me an ywhere you like on your page.                  
                                               </div> 
                           </div>
                     </h2>
                   </div>
         
 
-                   <div class="column">
-                       <h2 class="ui left aligned header">
-                              <div class="content">
-                          <span class="ui olive header">   03 /</span> EASY
-                                                 <div class="sub header">I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your                                                                   own content and make changes to the font. Feel free to drag and drop me anywhere you like on your page.               
+                   <div className="column">
+                       <h2 className="ui left aligned header">
+                              <div className="content">
+                          <span className="ui olive header">   03 /</span> EASY
+                                                 <div className="sub header">I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your                                                                   own content and make changes to the font. Feel free to drag and drop me anywhere you like on your page.               
                                                   </div> 
                              </div>
                       </h2>
@@ -64,16 +64,16 @@ render () {
 
     
  
-             <div class="ui three columns center aligned grid">
+             <div className="ui three columns center aligned grid">
      
                 
                  
-                      <div class="ui reveal">
-                            <div class="visible content">
-                                   <img src={graph} alt = "" class="ui Big image" />
+                      <div className="ui reveal">
+                            <div className="visible content">
+                                   <img src={graph} alt = "" className="ui Big image" />
                             </div>
-                            <div class="hidden content">
-                                   <img src={ecran} alt = "" class="move left" />
+                            <div className="hidden content">
+                                   <img src={ecran} alt = "" className="move left" />
                             </div>
                       </div>
                    
@@ -81,8 +81,8 @@ render () {
                </div>
                
                <Scrollchor to="demo" className="header item">
-               <div class="positive massive ui button">Try a demo
-              <i class="right arrow icon">
+               <div className="positive massive ui button">Try a demo
+              <i className="right arrow icon">
              </i></div>
               </Scrollchor>
 

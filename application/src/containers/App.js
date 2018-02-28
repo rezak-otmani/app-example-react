@@ -13,35 +13,35 @@ import ButtonScroll from '../components/ButtonScroll';
 
 render () {
  return (
-  <div class="pusher">
-  <div class="ui vertical masthead center aligned segment">
+  <div className="pusher">
+  <div className ="ui vertical masthead center aligned segment">
         
-      <div class="overlay fixed">
+      <div className ="overlay fixed">
         <ButtonScroll />
        </div>
 
-  <div id="home" class="row">
+  <div id="home" className ="row">
          <Home />
   </div>
     
-  <div id="product"class="row">
+  <div id="product"className="row">
          <Product/>
   </div>
 
-  <div id="about" class="row">
+  <div id="about" className="row">
           <About />
   </div>
 
 
-   <div id="featured" class="row">
+   <div id="featured" className="row">
            <Featured />
    </div>
  
-   <div id="contact" class="row">
+   <div id="contact" className="row">
             <Contact />
    </div>
 
-    <div id="demo" class="row">
+    <div id="demo" className="row">
              <Demo />
      </div>
 

@@ -5,14 +5,14 @@ import Scrollchor from 'react-scrollchor';
 const NavBar = () => (
    
  
-<div class="ui inverted segment">
- <div class="ui secondary stackable massive compact menu">
-    <Scrollchor to="" class= "olive item active">Home</Scrollchor>
-    <Scrollchor to="product" class="item">Product</Scrollchor>
-    <Scrollchor to="about" class="item">About</Scrollchor>
-    <Scrollchor to="featured" class="item">Featured</Scrollchor>
-    <Scrollchor to="contact" class="item">Contact</Scrollchor>
-    <Scrollchor to="demo" class="item">Demo</Scrollchor>
+<div className="ui inverted segment">
+ <div className="ui secondary stackable massive compact menu">
+    <Scrollchor to="" className= "olive item active">Home</Scrollchor>
+    <Scrollchor to="product" className="item">Product</Scrollchor>
+    <Scrollchor to="about" className="item">About</Scrollchor>
+    <Scrollchor to="featured" className="item">Featured</Scrollchor>
+    <Scrollchor to="contact" className="item">Contact</Scrollchor>
+    <Scrollchor to="demo" className="item">Demo</Scrollchor>
 </div>
 </div>
 
