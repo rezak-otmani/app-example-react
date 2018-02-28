@@ -41,10 +41,9 @@ render () {
             <Contact />
    </div>
 
-    <div id="demo" className="row">
+     <div id="demo" className="row">
              <Demo />
      </div>
-
 
 </div>
 

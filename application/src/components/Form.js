@@ -1,6 +1,7 @@
 import React from 'react'
 import { Field, reduxForm } from 'redux-form'
 
+
 const required = value => value ? undefined : <span className="ui red header"> ! Required </span>
 const maxLength = max => value =>
   value && value.length > max ?  <span className="ui red header">Must be ${max} characters or less </span> : undefined
@@ -36,8 +37,9 @@ const renderField = ({ input, label, placeholder,type, meta: { touched, error, w
 const Form = (props) => {
   const { handleSubmit, pristine, reset, submitting } = props
   return (
+  <div className="center aligned column">
     <form className="ui form" onSubmit={handleSubmit}>
-         
+        
           <Field 
                    name="name"
                    type="text"
@@ -88,6 +90,7 @@ const Form = (props) => {
         <button className="positive massive ui button" type="submit" disabled={submitting}>Send<i className="right arrow icon"></i></button> 
      </div>
     </form>
+   </div>
   )
 }
 
