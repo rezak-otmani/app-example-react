@@ -24,14 +24,14 @@ render () {
            </div>
            <div className="row">   
            <div className="ui container">
-               <Form onSubmit={showResults} />
+               <Form onSubmit={showResults}  />
             </div>
             </div>
           <br/>
 
 
 
-                                <div className="ui vertical olive inverted footer segment">
+                               <div className="ui vertical olive inverted footer segment">
                                     <div className="ui seven columns center aligned stackable grid">
                                             <div className="three wide column">                 
              				              <a href="" target="_self" tabIndex="-1">
