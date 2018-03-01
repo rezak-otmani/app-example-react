@@ -16,19 +16,23 @@ render () {
                                             <h1 className="ui huge header">GET IN TOUCH</h1>
                                       </div>
                              </div>
+
                              <div className="ui seven columns center aligned stackable divided equal height stackable grid">   
                                           <div className="three wide column">
                                                <div className="ui link list">
                                                    <a href="" className="item">info@mysite.com </a>
                                                    <a href="" className="item">info@mysite.com</a>
+
                                                </div>
                                            </div>
                                             
+
 
                                                <div className="three wide column">
                                                   <div className="ui link list">
                                                       <a href="" className="item">Tel: 123-456-7890</a>
                                                      <a href="" className="item">Fax: 123-456-7890</a>
+
                                                    </div>
                                                </div> 
                                               
@@ -37,6 +41,7 @@ render () {
                                                    <div className="ui link list">
                                                     <p className="item">500 Terry Francois Street</p>
                                                     <p className="item">San Francisco, CA 94158</p>
+
                                                    </div>
                                             </div>
                                    </div>

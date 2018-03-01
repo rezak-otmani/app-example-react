@@ -13,12 +13,13 @@ render () {
  return (
 
 
+
 <div className="pusher">
   <div className="ui inverted vertical masthead center aligned segment">
 
         <div className="ui inverted vertical strip segment">
 
-          <div className = "headertop">
+           <div className = "headertop">
 
             <div className="ui three columns center aligned stackable grid">
 
@@ -50,6 +51,7 @@ render () {
         			 EMPOWERING GROWTH WITH REAL DATA
         		 </div>
         	 </h1>
+
           
          
   	  <Scrollchor to="product" className ="header item">

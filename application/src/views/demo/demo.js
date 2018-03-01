@@ -2,11 +2,14 @@ import React, {Component} from 'react';
 import Form from '../../components/Form';
 import Scrollchor from 'react-scrollchor';
 import showResults from '../../containers/showResults';
+
+
+
 class Demo extends Component {
 
 render () {
  return (
- 
+
  <div className="pusher">
   <div className="ui vertical masthead center aligned segment">
          
@@ -21,7 +24,7 @@ render () {
                     </div> 
                     </div>
            </h1>
-           </div>
+      </div>
            <div className="row">   
            <div className="ui container">
                <Form onSubmit={showResults}  />
@@ -44,7 +47,11 @@ render () {
                          				  </svg>
                      				 </a>
 
-                     			      </div> 
+
+                      </div>  
+                                                      
+
+                     			   
  
                                               <div className="two wide column">
                                                       <h2 className="ui left aligned header">

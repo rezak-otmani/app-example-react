@@ -6,6 +6,7 @@ const ButtonScroll= () => (
      
 
     
+
    <div className="ui link list"> 
        <Scrollchor to="" className="item">
         <button className="ui inverted grey mini circular icon button" title='Home'>       </button>    
@@ -17,13 +18,14 @@ const ButtonScroll= () => (
      </button> 
      </Scrollchor>
      <br />
-    
+   
       <Scrollchor to="about" className="item">
       <button className="ui inverted grey mini circular icon button" title='About'>
       </button> 
       </Scrollchor>
       <br />
      
+
       <Scrollchor to="featured" className="item">
     <button className="ui inverted grey mini circular icon button" title='Featured'>
        </button> 
@@ -31,11 +33,13 @@ const ButtonScroll= () => (
        <br />
 
 
+
       <Scrollchor to="contact" className="item">
      <button className="ui inverted grey mini circular icon button" title='Contact'>
      </button> 
      </Scrollchor>
       <br />
+
 
 
      <Scrollchor to="demo" className="item">

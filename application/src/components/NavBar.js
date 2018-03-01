@@ -5,6 +5,7 @@ import Scrollchor from 'react-scrollchor';
 const NavBar = () => (
    
  
+
 <div className="ui inverted segment">
  <div className="ui secondary stackable massive compact menu">
     <Scrollchor to="" className= "olive item active">Home</Scrollchor>
