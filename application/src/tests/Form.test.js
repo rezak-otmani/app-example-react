@@ -2,7 +2,7 @@ import React from 'react';
 import Enzyme, { shallow, render, mount } from 'enzyme';
 import renderer from 'react-test-renderer';
 import Form from '../components/Form';
-
+import { Field, reduxForm } from 'redux-form'
 
 describe('Form Component', () => {
         
@@ -57,6 +57,7 @@ describe('Form Component', () => {
               
               const adresse = wrapper.find("Field[name='adresse']").first();
               expect((adresse).length).toBe(1);
+
          })
 
           it('render the <SubmitButton /> component', () => {
@@ -94,7 +95,7 @@ beforeEach(() => {
       const input5 = wrapper.find("Field[name='adresse']").first();
         
       
-     
+
       input1.simulate('change', {target: { value: name } });
       input2.simulate('change', {target: { value: email } });
       input3.simulate('change', {target: { value: subject } });
@@ -110,6 +111,7 @@ beforeEach(() => {
          expect(wrapper.state().subject).toEqual(subject);
          expect(wrapper.state().phone).toEqual(phone);
          expect(wrapper.state().adresse).toEqual(adresse);
+
         
    
     }); 
@@ -131,11 +133,14 @@ beforeEach(() => {
              
      
 
+
         });
+
 
             
          
           
                   
 });
+
 });
