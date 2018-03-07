@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ButtonScroll Component renders correctly 1`] = `
+<div
+  className="ui link list"
+>
+  <a
+    className="item"
+    href="#"
+    onClick={[Function]}
+  >
+    <button
+      className="ui inverted grey mini circular icon button"
+      title="Home"
+    >
+             
+    </button>
+  </a>
+  <br />
+  <a
+    className="item"
+    href="#product"
+    onClick={[Function]}
+  >
+    <button
+      className="ui inverted grey mini circular icon button"
+      title="Product"
+    />
+  </a>
+  <br />
+  <a
+    className="item"
+    href="#about"
+    onClick={[Function]}
+  >
+    <button
+      className="ui inverted grey mini circular icon button"
+      title="About"
+    />
+  </a>
+  <br />
+  <a
+    className="item"
+    href="#featured"
+    onClick={[Function]}
+  >
+    <button
+      className="ui inverted grey mini circular icon button"
+      title="Featured"
+    />
+  </a>
+  <br />
+  <a
+    className="item"
+    href="#contact"
+    onClick={[Function]}
+  >
+    <button
+      className="ui inverted grey mini circular icon button"
+      title="Contact"
+    />
+  </a>
+  <br />
+  <a
+    className="item"
+    href="#demo"
+    onClick={[Function]}
+  >
+    <button
+      className="ui inverted grey mini circular icon button"
+      title="Demo"
+    />
+  </a>
+</div>
+`;

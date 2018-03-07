@@ -1,0 +1,152 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home Component renders correctly 1`] = `
+<div
+  className="pusher"
+>
+  <div
+    className="ui inverted vertical masthead center aligned segment"
+  >
+    <div
+      className="ui inverted vertical strip segment"
+    >
+      <div
+        className="headertop"
+      >
+        <div
+          className="ui three columns center aligned stackable grid"
+        >
+          <div
+            className="column"
+          >
+            <a
+              href=""
+              tabIndex="-1"
+              target="_self"
+            >
+              <svg
+                className="logo"
+                preserveAspectRatio="xMidYMid meet"
+                role="img"
+                viewBox="-7.7116809713429575 -16.75102391736263 313.60835950127966 385.58404856714714"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g
+                  className="stylesvgtop"
+                >
+                  <path
+                    d="M298.185 264.061l-149.093 88.021L0 264.061V88.021L149.092 0l149.093 88.021v176.04z"
+                  />
+                  <text
+                    x="150"
+                    y="190"
+                  >
+                    <tspan>
+                      DATO
+                    </tspan>
+                  </text>
+                </g>
+              </svg>
+            </a>
+          </div>
+          <div
+            className="column"
+          >
+            <div
+              className="ui inverted segment"
+            >
+              <div
+                className="ui inverted segment"
+              >
+                <div
+                  className="ui secondary stackable massive compact menu"
+                >
+                  <a
+                    className="olive item active"
+                    href="#"
+                    onClick={[Function]}
+                  >
+                    Home
+                  </a>
+                  <a
+                    className="item"
+                    href="#product"
+                    onClick={[Function]}
+                  >
+                    Product
+                  </a>
+                  <a
+                    className="item"
+                    href="#about"
+                    onClick={[Function]}
+                  >
+                    About
+                  </a>
+                  <a
+                    className="item"
+                    href="#featured"
+                    onClick={[Function]}
+                  >
+                    Featured
+                  </a>
+                  <a
+                    className="item"
+                    href="#contact"
+                    onClick={[Function]}
+                  >
+                    Contact
+                  </a>
+                  <a
+                    className="item"
+                    href="#demo"
+                    onClick={[Function]}
+                  >
+                    Demo
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="ui text container"
+    >
+      <h1
+        className="ui huge inverted header"
+      >
+        <div
+          className="ui two wide columns center aligned stackable grid"
+        >
+          EMPOWERING GROWTH WITH REAL DATA
+        </div>
+      </h1>
+      <a
+        className="header item"
+        href="#product"
+        onClick={[Function]}
+      >
+        <div
+          className="ui image"
+        >
+          <div
+            className="ui small fade reveal image"
+          >
+            <img
+              alt=""
+              className="visible content"
+              src="image_link1.png"
+            />
+            <img
+              alt=""
+              className="hidden content"
+              src="image_link2.png"
+            />
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Google Map Component renders correctly 1`] = `
+<div>
+  <div
+    className={undefined}
+    style={
+      Object {
+        "height": "100%",
+        "position": "absolute",
+        "width": "100%",
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "bottom": 0,
+          "display": "inherit",
+          "height": "100vh",
+          "left": 0,
+          "position": "relative",
+          "right": 0,
+          "top": 0,
+          "width": "100vw",
+        }
+      }
+    >
+      Loading map...
+    </div>
+  </div>
+  <div />
+</div>
+`;

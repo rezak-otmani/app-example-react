@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NavBAr Component renders correctly 1`] = `
+<div
+  className="ui inverted segment"
+>
+  <div
+    className="ui secondary stackable massive compact menu"
+  >
+    <a
+      className="olive item active"
+      href="#"
+      onClick={[Function]}
+    >
+      Home
+    </a>
+    <a
+      className="item"
+      href="#product"
+      onClick={[Function]}
+    >
+      Product
+    </a>
+    <a
+      className="item"
+      href="#about"
+      onClick={[Function]}
+    >
+      About
+    </a>
+    <a
+      className="item"
+      href="#featured"
+      onClick={[Function]}
+    >
+      Featured
+    </a>
+    <a
+      className="item"
+      href="#contact"
+      onClick={[Function]}
+    >
+      Contact
+    </a>
+    <a
+      className="item"
+      href="#demo"
+      onClick={[Function]}
+    >
+      Demo
+    </a>
+  </div>
+</div>
+`;
