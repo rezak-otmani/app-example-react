@@ -2,7 +2,8 @@ import React, {Component} from 'react';
 import Form from '../../components/Form';
 import Scrollchor from 'react-scrollchor';
 import showResults from '../../containers/showResults';
-
+import { Provider } from "react-redux";
+import store from '../../redux/store.js';
 
 
 class Demo extends Component {
@@ -27,7 +28,9 @@ render () {
       </div>
            <div className="row">   
            <div className="ui container">
-               <Form onSubmit={showResults}  />
+              <Provider store={store}>
+                  <Form onSubmit={showResults}  />
+               </Provider>
             </div>
             </div>
           <br/>
