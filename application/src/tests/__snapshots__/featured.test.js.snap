@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[` 1`] = `
+<div
+  className="pusher"
+>
+  <div
+    className="ui vertical masthead center aligned segment"
+  >
+    <div
+      className="center aligned column"
+    >
+      <div
+        className="ui sizer vertical segment"
+      >
+        <h1
+          className="ui huge header"
+        >
+          USING DATO
+        </h1>
+      </div>
+    </div>
+    <div
+      className="ui seven columns center aligned stackable grid"
+    >
+      <div
+        className="column"
+      >
+        <img
+          alt=""
+          src="sat.png"
+        />
+      </div>
+      <div
+        className="column"
+      >
+        <img
+          alt=""
+          src="up.png"
+        />
+      </div>
+      <div
+        className="column"
+      >
+        <img
+          alt=""
+          src="tech2023.png"
+        />
+      </div>
+      <div
+        className="seven column row"
+      >
+        <div
+          className="column"
+        >
+          <img
+            alt=""
+            src="le.png"
+          />
+        </div>
+        <div
+          className="column"
+        >
+          <img
+            alt=""
+            src="infodata.png"
+          />
+        </div>
+        <div
+          className="column"
+        >
+          <img
+            alt=""
+            src="info.png"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

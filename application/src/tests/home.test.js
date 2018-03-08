@@ -33,12 +33,12 @@ describe('Home Component', () => {
               expect(wrapper.find('img').length).toBe(2);
             });
          
-            it('renders correctly', () => {
+           
                 const tree = renderer.create(
                  <Home />
                           ).toJSON();
                   expect(tree).toMatchSnapshot();
-             });
+             
 
 
 });

@@ -32,13 +32,11 @@ describe('Google Map Component', () => {
            });
 
 
-              
-            it('renders correctly', () => {
                 const tree = renderer.create(
                  <MapContainer />
                           ).toJSON();
                   expect(tree).toMatchSnapshot();
-             });
+            
 
 
 

@@ -1,0 +1,122 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[` 1`] = `
+<div
+  className="pusher"
+>
+  <div
+    className="ui vertical olive inverted masthead center aligned segment"
+  >
+    <div
+      className="center aligned column"
+    >
+      <div
+        className="ui sizer vertical segment"
+      >
+        <h1
+          className="ui huge header"
+        >
+          GET IN TOUCH
+        </h1>
+      </div>
+    </div>
+    <div
+      className="ui seven columns center aligned stackable divided equal height stackable grid"
+    >
+      <div
+        className="three wide column"
+      >
+        <div
+          className="ui link list"
+        >
+          <a
+            className="item"
+            href=""
+          >
+            info@mysite.com 
+          </a>
+          <a
+            className="item"
+            href=""
+          >
+            info@mysite.com
+          </a>
+        </div>
+      </div>
+      <div
+        className="three wide column"
+      >
+        <div
+          className="ui link list"
+        >
+          <a
+            className="item"
+            href=""
+          >
+            Tel: 123-456-7890
+          </a>
+          <a
+            className="item"
+            href=""
+          >
+            Fax: 123-456-7890
+          </a>
+        </div>
+      </div>
+      <div
+        className="three wide column"
+      >
+        <div
+          className="ui link list"
+        >
+          <p
+            className="item"
+          >
+            500 Terry Francois Street
+          </p>
+          <p
+            className="item"
+          >
+            San Francisco, CA 94158
+          </p>
+        </div>
+      </div>
+    </div>
+    <div
+      className="ui billboard test ad"
+      data-text=""
+    >
+      <div>
+        <div
+          className={undefined}
+          style={
+            Object {
+              "height": "100%",
+              "position": "absolute",
+              "width": "100%",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "bottom": 0,
+                "display": "inherit",
+                "height": "100vh",
+                "left": 0,
+                "position": "relative",
+                "right": 0,
+                "top": 0,
+                "width": "100vw",
+              }
+            }
+          >
+            Loading map...
+          </div>
+        </div>
+        <div />
+      </div>
+    </div>
+  </div>
+</div>
+`;

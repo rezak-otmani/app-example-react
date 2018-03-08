@@ -1,0 +1,141 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[` 1`] = `
+<div
+  className="pusher"
+>
+  <div
+    className="ui vertical masthead center aligned segment"
+  >
+    <div
+      className="center aligned column"
+    >
+      <div
+        className="ui sizer vertical segment"
+      >
+        <h1
+          className="ui huge header"
+        >
+          OUR TECHNOLOGY
+        </h1>
+      </div>
+    </div>
+    <div
+      className="ui seven columns center aligned stackable grid"
+    >
+      <div
+        className="column"
+      >
+        <h2
+          className="ui left aligned header"
+        >
+          <div
+            className="content"
+          >
+            <span
+              className="ui olive header"
+            >
+               01 /
+            </span>
+             FAST
+            <div
+              className="sub header"
+            >
+              I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your                                                                   content and make changes to the font. Feel free to drag and drop me a ywhere you like on your page.
+            </div>
+          </div>
+        </h2>
+      </div>
+      <div
+        className="column"
+      >
+        <h2
+          className="ui left aligned header"
+        >
+          <div
+            className="content"
+          >
+            <span
+              className="ui olive header"
+            >
+                02 /
+            </span>
+             SECURE
+            <div
+              className="sub header"
+            >
+              I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own                                                                           content and make changes to the font. Feel free to drag and drop me an ywhere you like on your page.
+            </div>
+          </div>
+        </h2>
+      </div>
+      <div
+        className="column"
+      >
+        <h2
+          className="ui left aligned header"
+        >
+          <div
+            className="content"
+          >
+            <span
+              className="ui olive header"
+            >
+                 03 /
+            </span>
+             EASY
+            <div
+              className="sub header"
+            >
+              I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your                                                                   own content and make changes to the font. Feel free to drag and drop me anywhere you like on your page.
+            </div>
+          </div>
+        </h2>
+      </div>
+    </div>
+    <div
+      className="ui three columns center aligned grid"
+    >
+      <div
+        className="ui reveal"
+      >
+        <div
+          className="visible content"
+        >
+          <img
+            alt=""
+            className="ui Big image"
+            src="graphics.png"
+          />
+        </div>
+        <div
+          className="hidden content"
+        >
+          <img
+            alt=""
+            className="move left"
+            src="ecran.jpg"
+          />
+        </div>
+      </div>
+    </div>
+    <a
+      className="header item"
+      href="#demo"
+      onClick={[Function]}
+    >
+      <div
+        className="positive massive ui button"
+      >
+        Try a demo
+        <i
+          className="right arrow icon"
+        />
+      </div>
+    </a>
+    <br />
+    <br />
+    <br />
+  </div>
+</div>
+`;

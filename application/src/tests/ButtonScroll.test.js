@@ -63,14 +63,11 @@ describe('ButtonScroll Component', () => {
 
 });
 
-               it('renders correctly', () => {
+       
                 const tree = renderer.create(
                  <ButtonScroll />
                           ).toJSON();
                   expect(tree).toMatchSnapshot();
-                });
-
-
-
+               
 
 });

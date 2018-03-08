@@ -70,12 +70,12 @@ describe('NavBAr Component', () => {
 
 });
 
-              it('renders correctly', () => {
+              
                 const tree = renderer.create(
                  <NavBar />
                           ).toJSON();
                   expect(tree).toMatchSnapshot();
-                });
+                
 
 
 });
