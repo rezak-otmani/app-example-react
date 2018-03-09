@@ -1,8 +1,10 @@
 import React from 'react';
-import Enzyme, { shallow, render, mount } from 'enzyme';
+import Enzyme, { shallow } from 'enzyme';
 import renderer from 'react-test-renderer';
 import Form from '../components/Form';
-import ReactTestUtils from 'react-dom/test-utils';
+import { Provider } from "react-redux";
+import store from '../redux/store.js';
+
 
 describe('Form Component', () => {
         
@@ -12,9 +14,11 @@ describe('Form Component', () => {
 
   beforeEach(() => {
     wrapper = shallow(
+       
       <Form 
             onSubmit={handleSubmit}
         />
+   
     );
   });
 
@@ -82,56 +86,39 @@ describe('Form Component', () => {
      
                
     });
+             
 
-
-     describe('the user populates the input', () => {
-             const name = 'cats'; 
-             const email = 'cat@ss.de';
-             const sujet = 'sujet';
-             const phone = '1234567890';
-             const adresse = 'adresse';
-             const item = {name, email, sujet, phone, adresse};
-
-             beforeEach(() => {
-                // The form don't have the change props,
-                //  we must add the change event to the form to test it
-                 wrapper.simulate('change', {target: {name: 'name', value: 'cats'}});
-                 wrapper.simulate('change', {target: {name: 'email', value: 'cat@ss.de'}});
-                 wrapper.simulate('change', {target: {name: 'subject', value: 'sujet'}});
-                 wrapper.simulate('change', {target: {name: 'phone', value: '1234567890'}});
-                 wrapper.simulate('change', {target: {name: 'adresse', value: 'adresse'}});
-                 wrapper.update();
-             });
-   
-                it('should update the state propretys' , () => {
-
-                     expect(wrapper.state().email.toString()).toEqual(email);
-                 });        
-
-          });
-
-   
+         
     
           describe('it should submit the form', () => {
   
-            beforeEach(() => {
-                 const form = wrapper.find('form').first();
-                 expect((form).length).toBe(1);
-                 wrapper.simulate('submit');
+                beforeEach(() => {
+                   const form = wrapper.find('form').first();
+                   expect((form).length).toBe(1);
+                   wrapper.simulate('submit');
 
-            });
+                 });
 
               
                      it('it calls handleSubmit on form submission', () => {
-                      wrapper.simulate('submit');
-                     expect(handleSubmit).toHaveBeenCalled();
-                   });
-            
-                     
-           
+                        wrapper.simulate('submit');
+                        expect(handleSubmit).toHaveBeenCalled();
+                      });
+                      
          
-            });         
-                  
+            });        
+
+           
+
+                  const tree = renderer.create(
+                    <Provider store={store}>
+                        <Form 
+                               onSubmit={handleSubmit}
+                         />
+                     </Provider>
+                                   ).toJSON();
+                     expect(tree).toMatchSnapshot(); 
+                               
 });
 
 

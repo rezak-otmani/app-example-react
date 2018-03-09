@@ -1,0 +1,103 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[` 1`] = `
+<div
+  className="center aligned column"
+>
+  <form
+    className="ui form"
+    onSubmit={[Function]}
+  >
+    <div>
+      <input
+        name="name"
+        onBlur={[Function]}
+        onChange={[Function]}
+        onDragStart={[Function]}
+        onDrop={[Function]}
+        onFocus={[Function]}
+        placeholder="Nom"
+        type="text"
+        value=""
+      />
+    </div>
+    <br />
+    <div>
+      <input
+        name="email"
+        onBlur={[Function]}
+        onChange={[Function]}
+        onDragStart={[Function]}
+        onDrop={[Function]}
+        onFocus={[Function]}
+        placeholder="Email"
+        type="email"
+        value=""
+      />
+    </div>
+    <br />
+    <div>
+      <input
+        name="subject"
+        onBlur={[Function]}
+        onChange={[Function]}
+        onDragStart={[Function]}
+        onDrop={[Function]}
+        onFocus={[Function]}
+        placeholder="Sujet"
+        type="text"
+        value=""
+      />
+    </div>
+    <br />
+    <div>
+      <input
+        name="phone"
+        onBlur={[Function]}
+        onChange={[Function]}
+        onDragStart={[Function]}
+        onDrop={[Function]}
+        onFocus={[Function]}
+        placeholder="Téléphone"
+        type="text"
+        value=""
+      />
+    </div>
+    <br />
+    <div>
+      <input
+        name="adresse"
+        onBlur={[Function]}
+        onChange={[Function]}
+        onDragStart={[Function]}
+        onDrop={[Function]}
+        onFocus={[Function]}
+        placeholder="Adresse"
+        type="text"
+        value=""
+      />
+    </div>
+    <br />
+    <div>
+      <button
+        className="massive ui button"
+        disabled={true}
+        onClick={[Function]}
+        type="button"
+      >
+        Clear Values
+      </button>
+      <button
+        className="positive massive ui button"
+        disabled={false}
+        type="submit"
+      >
+        Send
+        <i
+          className="right arrow icon"
+        />
+      </button>
+    </div>
+  </form>
+</div>
+`;
