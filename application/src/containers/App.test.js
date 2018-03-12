@@ -36,28 +36,28 @@ it('renders without crashing', () => {
            });
 
             it('it should render the About section', () => {
-             const home = wrapper.find('About').first();
-             expect(home.length).toEqual(1);
+             const about = wrapper.find('About').first();
+             expect(about.length).toEqual(1);
            });
 
              it('it should render the Featured section', () => {
-             const home = wrapper.find('Featured').first();
-             expect(home.length).toEqual(1);
+             const featured = wrapper.find('Featured').first();
+             expect(featured.length).toEqual(1);
            });
 
             it('it should render the Contact section', () => {
-             const home = wrapper.find('Contact').first();
-             expect(home.length).toEqual(1);
+             const contact = wrapper.find('Contact').first();
+             expect(contact.length).toEqual(1);
            });
            
              it('it should render the Demo section', () => {
-             const home = wrapper.find('Demo').first();
-             expect(home.length).toEqual(1);
+             const demo = wrapper.find('Demo').first();
+             expect(demo.length).toEqual(1);
            });
 
              it('it should render the ButtonScroll section', () => {
-             const home = wrapper.find('ButtonScrol').first();
-             expect(home.length).toEqual(1);
+             const btscroll = wrapper.find('ButtonScrol').first();
+             expect(btscroll.length).toEqual(1);
            });
 
 
