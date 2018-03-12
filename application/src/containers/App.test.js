@@ -55,7 +55,7 @@ it('renders without crashing', () => {
              expect(demo.length).toEqual(1);
            });
 
-             it('it should render the ButtonScroll section', () => {
+             it('it should render the ButtonScroll component', () => {
              const btscroll = wrapper.find('ButtonScrol').first();
              expect(btscroll.length).toEqual(1);
            });
