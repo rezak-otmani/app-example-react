@@ -19,13 +19,13 @@ describe('Form Component', () => {
             onSubmit={handleSubmit}
         />
    
-    );
-  });
+       );
+   });
 
-      afterEach(() => {
+         afterEach(() => {
     
-       handleSubmit.mockClear();
-  });  
+                handleSubmit.mockClear();
+         });  
 
 
      describe('Render Form Component', () => {
@@ -69,7 +69,6 @@ describe('Form Component', () => {
               expect((adresse).length).toBe(1);
 
          })
-
 
 
           it(' It renders a submit <button />' , () => {
