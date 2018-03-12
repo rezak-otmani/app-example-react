@@ -1,6 +1,3 @@
-Ce repo contient une application réalisée en utilisant React JS.
+example of an application created with React
 
-:w
-:wq
-:q
 
