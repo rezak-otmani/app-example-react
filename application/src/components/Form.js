@@ -30,9 +30,11 @@ const renderField = ({ input, label, placeholder,type, meta: { touched, error, w
   
     <div>
       <input {...input} placeholder={placeholder} type={type}/>
+        
       {touched && ((error && <span>{error}</span>) || (warning && <span>{warning}</span>))}
     </div>
 )
+
 
 const Form = (props) => {
   const { handleSubmit, pristine, reset, submitting } = props
@@ -46,6 +48,8 @@ const Form = (props) => {
                    placeholder="Nom"
                    component={renderField} 
                    validate={[ required, minLength2, maxLength30 ]}
+                   
+              
            />
            <br />
            <Field 
