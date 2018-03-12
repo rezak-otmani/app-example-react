@@ -14,17 +14,20 @@ describe('Contact Component', () => {
     );
   });
 
-           it('it should render Contact components ', () => {
-              expect(wrapper.length).toBe(1);
 
-          });
-
-           it('it should render the title', () => {
+            it('it should render the title', () => {
              const item = wrapper.find('h1').first();
              expect(item.length).toEqual(1);
              expect(item.childAt(0).text()).toBe('GET IN TOUCH')
            });
-              
+
+
+           it('it should render Contact section ', () => {
+              expect(wrapper.length).toBe(1);
+
+          });
+
+             
            
  describe('Contact information section', () => {
 
