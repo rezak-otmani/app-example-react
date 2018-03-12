@@ -14,10 +14,7 @@ describe('Home Component', () => {
     );
   });
 
-           it('it should render ButtonScroll components ', () => {     
-              expect(wrapper.length).toBe(1);
-
-          });
+          
 
           it('it should render the logo', () => {
              expect(wrapper.find('svg').length).toBe(1);
@@ -27,6 +24,13 @@ describe('Home Component', () => {
 
               expect(wrapper.find('NavBar').length).toBe(1);
            });
+
+            it('it should render the text', () => {
+             const item = wrapper.find('h1').first();
+             expect(item.length).toEqual(1);
+             expect(item.childAt(0).text()).toBe('EMPOWERING GROWTH WITH REAL DATA')
+           });
+
 
            it('it should render the image to scroll down ', () => {
 
